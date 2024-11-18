@@ -17,10 +17,6 @@
 
   @vite([
 
-    // Static assets like images
-    'resources/img/favicon.png',
-    'resources/img/apple-touch-icon.png',
-
     // CSS and JS vendor files
     'vendor/bootstrap/css/bootstrap.min.css',
     'vendor/bootstrap-icons/bootstrap-icons.css',
