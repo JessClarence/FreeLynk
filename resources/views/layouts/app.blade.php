@@ -12,22 +12,26 @@
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="icon" href="{{ Vite::asset('resources/img/favicon.png') }}">
+  <link rel="apple-touch-icon" href="{{ Vite::asset('resources/img/apple-touch-icon.png') }}">
 
-  <!-- Vendor CSS Files -->
   @vite([
 
-    "resources/img/favicon.png",
-    "resources/img/apple-touch-icon.png",
+    // Static assets like images
+    'resources/img/favicon.png',
+    'resources/img/apple-touch-icon.png',
 
-    "vendor/bootstrap/css/bootstrap.min.css",
-    "vendor/bootstrap-icons/bootstrap-icons.css",
-    "vendor/aos/aos.css",
-    "vendor/animate.css/animate.min.css",
-    "vendor/glightbox/css/glightbox.min.css",
-    "vendor/swiper/swiper-bundle.min.css",
+    // CSS and JS vendor files
+    'vendor/bootstrap/css/bootstrap.min.css',
+    'vendor/bootstrap-icons/bootstrap-icons.css',
+    'vendor/aos/aos.css',
+    'vendor/animate.css/animate.min.css',
+    'vendor/glightbox/css/glightbox.min.css',
+    'vendor/swiper/swiper-bundle.min.css',
     
-    "resources/css/main.css"
-  ])
+    // Your main CSS and JS files
+    'resources/css/main.css',
+])
 
 </head>
 
